@@ -1,0 +1,283 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2441
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 8
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2441
+Not Found: /openapi.json
+"GET /openapi.json HTTP/1.1" 404 2444
+Not Found: /openapi.json
+"GET /openapi.json HTTP/1.1" 404 2444
+"GET /about HTTP/1.1" 301 0
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\firstapp\views.py", line 14, in about
+    result = 1/0
+             ~^~
+ZeroDivisionError: division by zero
+"GET /about/ HTTP/1.1" 200 27
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /games/
+"GET /games/ HTTP/1.1" 404 3140
+"GET /games/home HTTP/1.1" 301 0
+"GET /games/home/ HTTP/1.1" 200 33
+"GET /games/dice/ HTTP/1.1" 200 15
+Internal Server Error: /games/oreshka/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\sem1app1\views.py", line 9, in oreshka
+    return HttpResponse(f"It is {random.choice('Îð¸ë', 'Ðåøêà')}")
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Random.choice() takes 2 positional arguments but 3 were given
+"GET /games/oreshka/ HTTP/1.1" 500 67560
+E:\Edu\Django\Seminar\DjangoProject\myproject\sem1app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /games/oreshka/ HTTP/1.1" 200 7
+"GET /games/oreshka/ HTTP/1.1" 200 8
+"GET /games/oreshka/ HTTP/1.1" 200 8
+"GET /games/oreshka/ HTTP/1.1" 200 8
+"GET /games/oreshka/ HTTP/1.1" 200 8
+"GET /games/oreshka/ HTTP/1.1" 200 7
+"GET /games/oreshka/ HTTP/1.1" 200 8
+"GET /games/oreshka/ HTTP/1.1" 200 8
+E:\Edu\Django\Seminar\DjangoProject\myproject\sem1app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\sem1app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 14
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/oreshka/ HTTP/1.1" 200 16
+"GET /games/random_number/ HTTP/1.1" 200 17
+E:\Edu\Django\Seminar\DjangoProject\myproject\sem1app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /games/random_number/
+"GET /games/random_number/ HTTP/1.1" 404 3182
+"GET /games/random-number/ HTTP/1.1" 200 17
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Not Found: /homepage
+"GET /homepage HTTP/1.1" 404 2538
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2651
+Not Found: /openapi.json
+"GET /openapi.json HTTP/1.1" 404 2654
+Not Found: /openapi.json
+"GET /openapi.json HTTP/1.1" 404 2654
+Not Found: /HW1
+"GET /HW1 HTTP/1.1" 404 2627
+Not Found: /HW1/
+"GET /HW1/ HTTP/1.1" 404 2879
+You access homepage
+"GET /HW1/homepage HTTP/1.1" 200 132
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /homepage
+"GET /homepage HTTP/1.1" 404 2899
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /homepage
+"GET /homepage HTTP/1.1" 404 2641
+Not Found: /HW1/homepage
+"GET /HW1/homepage HTTP/1.1" 404 2653
+Not Found: /HW1/homepage
+"GET /HW1/homepage HTTP/1.1" 404 2653
+Not Found: /HW1/homepage
+"GET /HW1/homepage HTTP/1.1" 404 2653
+Not Found: /HW1/homepage
+"GET /HW1/homepage HTTP/1.1" 404 2653
+Index page accessed
+"GET / HTTP/1.1" 200 13
+Not Found: /HW1/homepage
+"GET /HW1/homepage HTTP/1.1" 404 2653
+Not Found: /hw1/homepage
+"GET /hw1/homepage HTTP/1.1" 404 2901
+Not Found: /hw1/homepage
+"GET /hw1/homepage HTTP/1.1" 404 2901
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+You access homepage
+"GET /hw1/homepage HTTP/1.1" 200 135
+Not Found: /hw1/hw1/about-me/
+"GET /hw1/hw1/about-me/ HTTP/1.1" 404 2918
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /hw1/hw1/about-me/
+"GET /hw1/hw1/about-me/ HTTP/1.1" 404 2918
+Internal Server Error: /hw1/about-me/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view HW1.views.about_me didn't return an HttpResponse object. It returned None instead.
+"GET /hw1/about-me/ HTTP/1.1" 500 68675
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 152
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+Not Found: /hw1/homepage/
+"GET /hw1/homepage/ HTTP/1.1" 404 2906
+Not Found: /hw1/homepage/
+"GET /hw1/homepage/ HTTP/1.1" 404 2906
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+Not Found: /hw1
+"GET /hw1 HTTP/1.1" 404 2627
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 152
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 132
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+Not Found: /about-me/
+"GET /about-me/ HTTP/1.1" 404 2645
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 152
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+Not Found: /homepage/
+"GET /homepage/ HTTP/1.1" 404 2645
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\HW1\views.py changed, reloading.
+Watching for file changes with StatReloader
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET / HTTP/1.1" 200 13
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+You accessed homepage
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+You accessed About me page
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+"GET /hw1/about-me/ HTTP/1.1" 200 156
