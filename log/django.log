@@ -281,3 +281,11 @@ Watching for file changes with StatReloader
 "GET /hw1/about-me/ HTTP/1.1" 200 156
 "GET /hw1/homepage/ HTTP/1.1" 200 136
 "GET /hw1/about-me/ HTTP/1.1" 200 156
+Watching for file changes with StatReloader
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+"GET /hw1/about-me/ HTTP/1.1" 200 156
+"GET /hw1/homepage/ HTTP/1.1" 200 136
+"GET /hw1/about-me/ HTTP/1.1" 200 156
