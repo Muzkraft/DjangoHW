@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+{% block content %}
+    <h1>Games</h1>
+    <button rel="coin-flip/" name="coin"> Coin flip</button>
+    <button action="random_number/" name="random_number"> Random number</button>
+    <button action="dice/" name="dice"> Dice</button>
+    <div class="container">
+        {% for try in content %}
+            {{ try }}<br>
+        {% endfor %}
+    </div>
+{% endblock %}

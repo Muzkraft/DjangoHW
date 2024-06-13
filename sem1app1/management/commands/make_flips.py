@@ -1,3 +1,4 @@
+import datetime
 import random
 
 from django.core.management.base import BaseCommand
@@ -13,5 +14,5 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         count = options.get('count')
         for i in range(1, count + 1):
-            flip = CoinFlip(result=f'{random.choice(['head', 'tail'])}')
+            flip = CoinFlip(result=f'{random.choice(["tail", "head"])}', flip_time=datetime.datetime.utcnow())
             flip.save()
