@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %} {{ title }} {% endblock %}
+{% block content %}
+<h1>Статьи автора: {{ title }}</h1>
+
+<div class="container">
+    {% for post in content %}
+        {% if post.is_published %}
+            <h3><a href="{% url 'full post' post.id %}">{{ post.title }}</a></h3>
+            <p>{{ post.content|truncatechars:30 }}</p>
+            <p>Дата публикации: {{post.date}}</p>
+        {% endif %}
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content|truncatechars:30 }}</p>
+        <p>Неопубликована</p>
+    {% endfor %}
+</div>
+{% endblock %}

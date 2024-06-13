@@ -6,9 +6,9 @@ class Command(BaseCommand):
     help = 'Get user by id.'
 
     def add_arguments(self, parser):
-        parser.add_argument('id', type=int, help='User id')
+        parser.add_argument('pk', type=int, help='User ID')
 
     def handle(self, *args, **options):
-        id = options['id']
-        user = User.objects.get(id=id)
+        pk = options['pk']
+        user = User.objects.filter(pk=pk).first()
         self.stdout.write(f'{user}')
