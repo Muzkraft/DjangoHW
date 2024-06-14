@@ -2002,3 +2002,140 @@ Watching for file changes with StatReloader
 "GET /seminar/full-post/11 HTTP/1.1" 200 1360
 "GET /seminar/full-post/11 HTTP/1.1" 200 1360
 "GET /seminar/full-post/11 HTTP/1.1" 200 1360
+Watching for file changes with StatReloader
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3121
+"GET /les4/forms HTTP/1.1" 301 0
+Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py", line 31, in many_fields_form
+    return render(request, 'myapp4/many_fields_form.html',{'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/many_fields_form.html
+"GET /les4/forms/ HTTP/1.1" 500 84525
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2134
+"POST /les4/forms/ HTTP/1.1" 200 2909
+"POST /les4/forms/ HTTP/1.1" 200 2847
+"POST /les4/forms/ HTTP/1.1" 200 2847
+"POST /les4/forms/ HTTP/1.1" 200 2847
+"POST /les4/forms/ HTTP/1.1" 200 2847
+"POST /les4/forms/ HTTP/1.1" 200 2847
+"POST /les4/forms/ HTTP/1.1" 200 2847
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/forms/ HTTP/1.1" 200 2134
+"GET /les4/forms/ HTTP/1.1" 200 2134
+"GET /les4/forms/ HTTP/1.1" 200 2134
+"POST /les4/forms/ HTTP/1.1" 200 2902
+"POST /les4/forms/ HTTP/1.1" 200 2832
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /les4/forms/ HTTP/1.1" 200 2832
+"POST /les4/forms/ HTTP/1.1" 200 2832
+"GET /les4/forms/ HTTP/1.1" 200 2755
+"GET /les4/forms/ HTTP/1.1" 200 2755
+"POST /les4/forms/ HTTP/1.1" 200 2840
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /les4/forms/ HTTP/1.1" 200 2840
+"POST /les4/forms/ HTTP/1.1" 200 2840
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /les4/forms/ HTTP/1.1" 200 2840
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/user HTTP/1.1" 301 0
+Internal Server Error: /les4/user/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py", line 50, in add_user
+    return render(request, 'myapp4/user_form.html', {'form': form, 'message': message})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+"GET /les4/user/ HTTP/1.1" 500 84941
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /les4/user/ HTTP/1.1" 200 1466
+"POST /les4/user/ HTTP/1.1" 200 1631
+"POST /les4/user/ HTTP/1.1" 200 1628
+Watching for file changes with StatReloader
+"POST /les4/user/ HTTP/1.1" 200 1628
+"POST /les4/user/ HTTP/1.1" 200 1628
+"POST /les4/user/ HTTP/1.1" 200 1628
+"POST /les4/user/ HTTP/1.1" 200 1628
+"POST /les4/user/ HTTP/1.1" 200 1628
+"GET /les4/user/ HTTP/1.1" 200 1466
+"POST /les4/user/ HTTP/1.1" 200 1635
+"POST /les4/user/ HTTP/1.1" 200 1632
+"POST /les4/user/ HTTP/1.1" 200 1530
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\forms.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\fourthapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /les4/upload_image/
+"GET /les4/upload_image/ HTTP/1.1" 404 3514
+"GET /les4/upload/ HTTP/1.1" 200 1275
+"POST /les4/upload/ HTTP/1.1" 200 1275
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2935
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2986
+"GET /hw3/orders HTTP/1.1" 301 0
+"GET /hw3/orders/ HTTP/1.1" 200 4526
+"GET /hw3/orders/2 HTTP/1.1" 200 2470

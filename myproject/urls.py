@@ -24,4 +24,6 @@ urlpatterns = [
     path('seminar/', include('sem1app1.urls')),
     path('', include('HW1app.urls')),
     path('les3/', include('thirdapp.urls')),
+    path('les4/', include('fourthapp.urls')),
+    path('hw3/', include('HW3app.urls')),
 ]
