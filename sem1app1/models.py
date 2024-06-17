@@ -36,7 +36,10 @@ class Author(models.Model):
         return f'{self.first_name} {self.last_name}'
 
     def __str__(self):
-        return f'Name: {self.first_name}, email: {self.email}'
+        return f'Name: {self.full_name()}, email: {self.email}'
+
+    def __repr__(self):
+        return f'Author("{self.first_name}", "{self.last_name}", "{self.email}", "{self.bio}", "{self.birthday}")'
 
 
 class Post(models.Model):
@@ -49,7 +52,15 @@ class Post(models.Model):
     is_published = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'Title is {self.title}'
+        return f'Title is {self.title}, author: {self.author}'
 
     def add_view(self):
         self.views += 1
+
+
+class Comment(models.Model):
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    comment = models.TextField
+    publication_date = models.DateField(auto_now_add=True)
+    update_date = models.DateField(auto_now_add=True)
