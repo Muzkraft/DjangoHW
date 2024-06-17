@@ -90,7 +90,7 @@ def author_form(request):
         form = AuthorForm()
     authors = Author.objects.all()
     context = {'title': 'Add Author', 'form': form, 'authors': authors}
-    return render(request, 'sem1app1/add_author.html', context)
+    return render(request, 'sem1app1/add_customer.html', context)
 
 
 def post_form(request):

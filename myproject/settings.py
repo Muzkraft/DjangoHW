@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'thirdapp',
     'fourthapp',
     'HW3app',
+    'HW4app',
 ]
 
 MIDDLEWARE = [
@@ -158,6 +159,10 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': './HW3app/log/hw3.log',
         },
+        'hw4_file': {
+            'class': 'logging.FileHandler',
+            'filename': './HW4app/log/hw4.log',
+        },
     },
     'loggers': {
         'django': {
@@ -176,6 +181,11 @@ LOGGING = {
         },
         'HW3app': {
             'handlers': ['console', 'hw3_file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'HW4app': {
+            'handlers': ['console', 'hw4_file'],
             'level': 'INFO',
             'propagate': True,
         },
