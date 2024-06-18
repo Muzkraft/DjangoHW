@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'fourthapp',
     'HW3app',
     'HW4app',
+    'fithapp',
 ]
 
 MIDDLEWARE = [
