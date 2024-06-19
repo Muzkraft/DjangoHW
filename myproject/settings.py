@@ -39,12 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'firstapp',
     'sem1app1',
-    'HW1app',
     'secondapp',
     'HW2app',
     'thirdapp',
     'fourthapp',
     'HW3app',
+    'HW4app',
+    'fithapp',
 ]
 
 MIDDLEWARE = [
@@ -156,13 +157,13 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': './log/django.log',
         },
-        'hw1_file': {
-            'class': 'logging.FileHandler',
-            'filename': './HW1app/log/hw1.log',
-        },
         'hw3_file': {
             'class': 'logging.FileHandler',
             'filename': './HW3app/log/hw3.log',
+        },
+        'hw4_file': {
+            'class': 'logging.FileHandler',
+            'filename': './HW4app/log/hw4.log',
         },
     },
     'loggers': {
@@ -175,13 +176,13 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-        'HW1app': {
-            'handlers': ['console', 'hw1_file'],
+        'HW3app': {
+            'handlers': ['console', 'hw3_file'],
             'level': 'INFO',
             'propagate': True,
         },
-        'HW3app': {
-            'handlers': ['console', 'hw3_file'],
+        'HW4app': {
+            'handlers': ['console', 'hw4_file'],
             'level': 'INFO',
             'propagate': True,
         },

@@ -33,4 +33,4 @@ def orders(request, customer_id: int = None):
     else:
         order = Order.objects.all()
         context = {"title": f"Orders list", "order": order}
-    return render(request, "HW3app/orders.html", context)
+    return render(request, "HW4app/orders.html", context)
