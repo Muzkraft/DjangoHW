@@ -23,7 +23,7 @@ urlpatterns = [
     path('about', about),
     path('seminar/', include('sem1app1.urls')),
     path('les3/', include('thirdapp.urls')),
-    path('les4/', include('fourthapp.urls')),
+    # path('les4/', include('fourthapp.urls')),
     path('hw3/', include('HW3app.urls')),
     path('hw4/', include('HW4app.urls')),
 ]

@@ -41,6 +41,10 @@ class Author(models.Model):
     def __repr__(self):
         return f'Author("{self.first_name}", "{self.last_name}", "{self.email}", "{self.bio}", "{self.birthday}")'
 
+    class Meta:
+        verbose_name = 'Автор'
+        verbose_name_plural = 'Авторы'
+
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
@@ -50,6 +54,10 @@ class Post(models.Model):
     category = models.CharField(max_length=100)
     views = models.PositiveIntegerField(default=0)
     is_published = models.BooleanField(default=False)
+
+    class Meta:
+        verbose_name = 'Статья'
+        verbose_name_plural = 'Статьи'
 
     def __str__(self):
         return f'Title is {self.title}, author: {self.author}'
