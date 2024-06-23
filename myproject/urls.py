@@ -27,3 +27,7 @@ urlpatterns = [
     path('hw3/', include('HW3app.urls')),
     path('hw4/', include('HW4app.urls')),
 ]
+
+admin.site.site_title = "Django GB educational admin site"
+admin.site.site_header = "Django GB administration"
+admin.site.index_title = "Site administration"
