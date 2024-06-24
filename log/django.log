@@ -1,0 +1,101 @@
+Watching for file changes with StatReloader
+"GET /admin/admin_interface/theme/add/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/admin_interface/theme/add/ HTTP/1.1" 200 16851
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+"POST /admin/login/?next=/admin/admin_interface/theme/add/ HTTP/1.1" 302 0
+Not Found: /admin/admin_interface/theme/add/
+"GET /admin/admin_interface/theme/add/ HTTP/1.1" 404 18001
+"GET /admin/login/?next=/admin/admin_interface/theme/add/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 23958
+Watching for file changes with StatReloader
+Not Found: /
+"GET /admin/ HTTP/1.1" 200 23958
+"GET / HTTP/1.1" 404 15402
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 15428
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 15428
+"GET /admin/ HTTP/1.1" 200 23957
+Not Found: /db
+"GET /db HTTP/1.1" 404 15392
+"GET /les6/db HTTP/1.1" 301 0
+Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\sixapp\views.py", line 12, in total_in_db
+    return render(request, 'sixapp/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sixapp/total_count.html
+"GET /les6/db/ HTTP/1.1" 500 100774
+E:\Edu\Django\Seminar\DjangoProject\myproject\sixapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /les6/db/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\myproject\sixapp\views.py", line 12, in total_in_db
+    return render(request, 'sixapp/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sixapp/total_count.html
+"GET /les6/db/ HTTP/1.1" 500 100909
+"GET /les6/db/ HTTP/1.1" 200 13641
+"GET /__debug__/render_panel/?store_id=7cffbc13c28b47399ae2a22716c35c72&panel_id=SQLPanel HTTP/1.1" 200 4567
+"GET /__debug__/render_panel/?store_id=7cffbc13c28b47399ae2a22716c35c72&panel_id=RequestPanel HTTP/1.1" 200 2069
+"GET /les6/view/ HTTP/1.1" 200 13627
+"GET /les6/template HTTP/1.1" 301 0
+"GET /les6/template/ HTTP/1.1" 200 13607
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\Edu\Django\Seminar\DjangoProject\myproject\myproject\settings.py changed, reloading.
