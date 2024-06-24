@@ -9,11 +9,7 @@ logger = Logger(__name__)
 
 
 def home(request):
-    return HttpResponse(f'<h1>Welcome to random games!</h1>')
-
-
-def oreshka(request):
-    return HttpResponse(f"It is {random.choice(['Орёл', 'Решка'])}")
+    return render(request, 'sem1app1/index.html')
 
 
 def dice(request, tries=1):
@@ -90,7 +86,7 @@ def author_form(request):
         form = AuthorForm()
     authors = Author.objects.all()
     context = {'title': 'Add Author', 'form': form, 'authors': authors}
-    return render(request, 'sem1app1/add_customer.html', context)
+    return render(request, 'sem1app1/add_author.html', context)
 
 
 def post_form(request):

@@ -21,6 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.getenv('SECRET_KEY')
+# SECRET_KEY = '91094d713b1453c346f58fe6cab7f9b527c98c2306824d904902b6667649ad16'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -28,7 +29,7 @@ DEBUG = False
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'Muzkraft.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'muzkraft.pythonanywhere.com']
 
 INTERNAL_IPS = ['127.0.0.1',]
 
@@ -104,7 +105,12 @@ DATABASES = {
         },
     }
 }
-
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": "db.sqlite3",
+#     }
+# }
 
 
 # Password validation
