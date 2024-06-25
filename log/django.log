@@ -1278,3 +1278,171 @@ Not Found: /favicon.ico
 "GET /static/colorfield/jscolor/jscolor.js HTTP/1.1" 200 102106
 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 E:\Edu\Django\Seminar\DjangoProject\myproject\HW5app\admin.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2588
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2639
+Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: admin_interface_theme
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\template\library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\admin_interface\templatetags\admin_interface_tags.py", line 64, in get_admin_interface_theme
+    theme = Theme.objects.get_active()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\admin_interface\models.py", line 15, in get_active
+    objs_active_ls = list(objs_active_qs)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Edu\Django\Seminar\DjangoProject\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: admin_interface_theme
+"GET /admin/ HTTP/1.1" 500 451183
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 26401
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+"GET /static/admin_interface/css/form-controls.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/admin-interface-fix.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/admin-interface.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+"GET /static/admin_interface/css/language-chooser.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/list-filter-dropdown.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/rangefilter.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/modeltranslation.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/streamfield.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/related-modal.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/jquery.ui.tabs.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/sorl-thumbnail.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/ckeditor.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/tinymce.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/json-widget.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/import-export.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/rtl.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/css/tabbed-changeform.css?v=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin_interface/magnific-popup/magnific-popup.css?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin_interface/foldable-apps/foldable-apps.css?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/css/responsive_rtl.css?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/foldable-apps/foldable-apps.js?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/related-modal/related-modal.js?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=09666d757b59a801494c303f4fff36bec090d0965ced83dc1921577e HTTP/1.1" 304 0
+"GET /static/admin/js/theme.js HTTP/1.1" 304 0
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
